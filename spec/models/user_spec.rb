@@ -3,7 +3,8 @@ require 'spec_helper'
 describe User do
 
   it "should fail" do
-    User.id = 999
+    u = User.new
+    u.save!
   end
 
 end
