@@ -4,3 +4,4 @@ advanced commit
 b
 c
 d
+e
