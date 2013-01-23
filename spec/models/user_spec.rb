@@ -8,5 +8,10 @@ describe User do
     assert false
   end
 
+  if "should take a long time to run then succeed" do
+	sleep(120)
+	assert true
+  end
+
 end
 
