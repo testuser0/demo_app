@@ -9,7 +9,7 @@ describe User do
   end
 
   it "should take a long time to run then succeed" do
-	sleep(30)
+	sleep(5)
 	assert true
   end
 
